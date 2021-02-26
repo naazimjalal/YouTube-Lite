@@ -1,0 +1,25 @@
+
+body{
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.subtitle{
+    color: white;
+    text-decoration: inherit;
+    font-family: sans-serif;
+    font-size: 100%;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.arefs{
+    color: white;
+    text-decoration: inherit;
+}
+.container{
+    background-color: black;
+    width: 104vw;
+    position: absolute;
+    left: 0;
+}

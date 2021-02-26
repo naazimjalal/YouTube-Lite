@@ -1,0 +1,104 @@
+ 
+.logo{ 
+    display:flex;
+    justify-content:space-between;
+}
+.header{ 
+    display: flex;
+    background: black;
+    padding: 21px 10px;
+    height: 37px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.yt-text{
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+.icon{
+    position: relative;
+    top: 9%;
+    right: 8%;
+}
+.lite-logo {
+    position: relative;
+    right: 14px;
+    font-size: 26px;
+    top: 1px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.youtube-logo {
+    width: 139px;
+    padding: 1% 2%;
+    top: -13px;
+    left: -5px;
+    position: relative;
+    height: auto;
+}
+.search__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background: white;
+    height: 11px;
+    color: black;
+    padding: 9px 20px;
+    position: relative;
+    border-radius: 7px;
+    width: 49vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+    bottom: 38px;
+    left: 20px;
+}
+.search-bar{
+    background: white;
+}
+.search__input>input{
+    flex: 1 1;
+    padding: 10px 20px;
+    font-size: medium;
+    width: 35vw;
+    height: 11px;
+    border: none;
+}
+.search__input>input:focus{
+    outline-width: 0;
+}
+.search__inputIcon{
+    color:black;
+}
+@media screen and (max-width:500px){
+    .youtube-logo {
+        width: 94px;
+        top: -6px;
+        left: -5px;
+    }
+    .lite-logo{
+        right: 10px;
+        font-size: 19px;
+        font-family: sans-serif;
+        top: 5px;
+    }
+    .search__input{
+        height: 7px;
+        width: 49vw;
+        bottom: 36px;
+        left: 3px;
+    }
+    .search__input>input {
+        padding: 10px 20px;
+        font-size: medium;
+        width: 35vw;
+        height: 6px;
+        position: relative;
+        border: none;
+        left: -15px;
+    }
+}
