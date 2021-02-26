@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-deployed here - utube-lite-v.web.app
+deployed here - https://utube-lite-v.web.app
 
 ## Available Scripts
 
