@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Platform;
+    src: url(./Platform.ttf);
+}
+#logo-img{
+    width:141px;
+}
+#Appbar-logo{
+    display: flex;
+}
+#outlined-helperText{
+    display: none;
+}
+.Appbar{
+    display: flex;
+    background: black;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+}
+.icons{
+    top: 28px;
+    position: relative;
+    color: white;
+    padding-right: 39px;
+    display: flex;
+    margin-left: auto;
+}
+.icon-svg{
+    padding: 0px 5px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.Search-area{
+    padding: 13px 21px;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl{
+    background: white;
+    height: 49px;
+}
+.resthumbnail{
+    width: 35%;
+    padding: 0px 11px;
+}
+.restitle{
+    color: white;
+    font-size: 15px;
+    padding: 1px 13px;
+}
+.resinfo{
+    color: white;
+    font-size: 15px;
+    padding: 1px 13px;
+    font-family: 'Poppins';
+}
+.restname{
+    padding: 6px 12px;
+    font-size: 14px;
+}
+.MuiFormHelperText-root.MuiFormHelperText-contained{
+    display: none;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl {
+    font-family: Platform;
+}

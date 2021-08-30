@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.thumbnail{
+    width: 100%;
+}
+.info{
+    display: flex;
+    padding: 8px 18px;
+}
+.text-info{
+    padding: 0px 16px;
+}
+.text-info {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.video-name{
+    width: 112%;
+}
+.videopage{
+    display: none;
+}
